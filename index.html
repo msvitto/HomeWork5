@@ -5,37 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        .log{
+            display: flex;
+            justify-content: center;
+        }
         .title{
             font-size:xx-large;
         }
         form{
-            width: 250px;
-            padding-left: 20px;
+            padding: 80px;
             padding-top: 15px;
+            background-color: rgba(132, 180, 164, 0.151);
             
         }
         button{
-            font-size: x-large;
-            background-color: rgb(238, 235, 231);
-
+            font-size: 22px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        body{
+        background-color: rgba(222, 224, 221, 0.384);   
+        font-size: large;
         }
     </style>
     <title>Document</title>
 </head>
 <body>
-    <form action="auto" complete="" enctype="" method="" novalidate="" target="_blank">
+    <div>
+    <h1>If you want to have a cool car</h1>
+   
+    <h1>You should visit our site</h1>
+</div>
+<div class="log">
+    <form action="https://fom.in.ua/echo" target="_blank" method="post">
         <fieldset>
-            <legend class="title">registration</legend><br>
+            <legend class="title"><h4>registration</h4></legend>
             <legend>email</legend>
-                <input type="email" required placeholder="your email"> <br><br>
+                <input type="email"  placeholder="your email" required> <br><br>
             <legend>password</legend>
-                <input type="password" required placeholder="create password"><br><br>
-            <legend>confirmation of password</legend>
-                <input type="password" required placeholder="duplicate password"> <br><br><br>
-            <a href="new page/index.html" target="_blank">
-            <button type="button">send</button>
-            </a>
+                <input type="password" placeholder="create password" required><br><br>
+            <legend>repeat password</legend>
+                <input type="password" placeholder="repeat password" required > <br><br><br><br>
+            <button type="submit">register</button>
+            
         </fieldset>
     </form>
+</div>
 </body>
 </html>
