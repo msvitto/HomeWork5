@@ -39,17 +39,16 @@
     <h1>You should visit our site</h1>
 </div>
 <div class="log">
-    <form action="https://fom.in.ua/echo" target="_blank" method="post">
+    <form action="https://fom.in.ua/echo" target="_blank" method="get">
         <fieldset>
             <legend class="title"><h4>registration</h4></legend>
             <legend>email</legend>
-                <input type="email"  placeholder="your email" required> <br><br>
+                <input type="email" name="email" placeholder="your email" required> <br><br>
             <legend>password</legend>
-                <input type="password" placeholder="create password" required><br><br>
+                <input type="password" name="password" placeholder="create password" required><br><br>
             <legend>repeat password</legend>
-                <input type="password" placeholder="repeat password" required > <br><br><br><br>
-            <button type="submit">register</button>
-            
+                <input type="password" name="repeatpassword" placeholder="repeat password" required > <br><br><br><br>
+            <input type="submit" value="submit">
         </fieldset>
     </form>
 </div>
